@@ -26,7 +26,7 @@ function App() {
         </p>
 
         <a
-          href="/Shivani_Lokhande_Resume.pdf"
+          href="/Shivani_Lokhande_Resume.pdf.pdf"
           download
           className="resume-button"
         >
@@ -62,29 +62,44 @@ function App() {
 
         <div className="project-list">
 
-          <div className="project-card">
+          <a
+            href="https://github.com/shivanilokh/AI-Projects"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
             <h3>AI Company Knowledge Chatbot</h3>
             <p>
               An AI-powered chatbot built using Python and Streamlit to
               answer questions from company documents.
             </p>
-          </div>
+          </a>
 
-          <div className="project-card">
+          <a
+            href="https://github.com/shivanilokh/PowerBI-Projects"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
             <h3>Data Analytics Dashboard</h3>
             <p>
               An interactive dashboard built with Python and Streamlit to
               explore data and visualize statistical results.
             </p>
-          </div>
+          </a>
 
-          <div className="project-card">
+          <a
+            href="https://github.com/shivanilokh/Machine-Learning-Projects"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
             <h3>Machine Learning Projects</h3>
             <p>
               Machine learning projects focused on data preprocessing,
               model building, evaluation, and practical problem solving.
             </p>
-          </div>
+          </a>
 
         </div>
       </section>
@@ -109,7 +124,7 @@ function App() {
           </a>
 
           <a
-            href="https://github.com/shivanilokh/flyrank-ml-internship"
+            href="https://github.com/shivanilokh"
             target="_blank"
             rel="noopener noreferrer"
           >
