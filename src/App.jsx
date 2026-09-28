@@ -1,4 +1,5 @@
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -174,6 +175,7 @@ function App() {
         </div>
       </section>
 
+      <Analytics />
     </div>
   );
 }
